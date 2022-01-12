@@ -4,3 +4,9 @@
     templates:
       - api-ref-jobs
       - umn-jobs
+    check:
+      jobs:
+        - otc-tox-pep8
+    gate:
+      jobs:
+        - otc-tox-pep8
