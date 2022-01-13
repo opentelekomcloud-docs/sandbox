@@ -9,3 +9,4 @@ the help center of the Open Telekom Cloud
    :hidden:
 
    v1/index
+   classic/index
