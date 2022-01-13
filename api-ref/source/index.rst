@@ -6,7 +6,7 @@ the help center of the Open Telekom Cloud.
 
 
 .. toctree::
-   :hidden:
+   :maxdepth: 1
 
    v1/index
    classic/index
