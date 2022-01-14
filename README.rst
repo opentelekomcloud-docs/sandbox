@@ -17,6 +17,7 @@ These steps are necessary to initialize a project repo enabling you to contribut
 3. Click on “Fork” on the top-right of the page. If you have several
    identities configured, select the one you want to use for
    contributing to the documentation.
+   |image1|
 
 4. Click on the green “Code” button and copy the URL for your fork of
    the repo.
@@ -164,3 +165,6 @@ These steps are necessary to initialize a project repo enabling you to contribut
     select the “gate” label.
 
 24. XXX What happens now?
+
+.. |image1| image:: /media/image1.png
+
