@@ -3,11 +3,14 @@ Sandbox
 
 
 This is a sandbox project
-The aim of this project is to provide easy and understandable explanation how to work with GitOps documentation. How to contribute, review, propose changes, suggest fixes and validate previews.
+The aim of this project is to provide easy and understandable explanation
+how to work with GitOps documentation. How to contribute, review,
+propose changes, suggest fixes and validate previews.
 
 ## Initializing a repo
 
-These steps are necessary to initialize a project repo enabling you to contribute to the documentation of that project:
+These steps are necessary to initialize a project repo enabling
+you to contribute to the documentation of that project:
 
 1. Log into GitHub with your credentials.
 
@@ -20,7 +23,8 @@ These steps are necessary to initialize a project repo enabling you to contribut
    contributing to the documentation.
    |image1|
 
-4. After succesful fork you should see a forked project under your private identity.
+4. After succesful fork you should see a forked project under
+   your private identity.
    |image2|
 
 5. Edit the files with an "rst" extension to reflect your additions or
@@ -31,7 +35,7 @@ These steps are necessary to initialize a project repo enabling you to contribut
    |image3|
 
 6. Commit the changes either to the main branch of your forked project or
-   in case of potential multiple independent changes you can push it 
+   in case of potential multiple independent changes you can push it
    to separate branch.
    |image4|
 
@@ -44,16 +48,16 @@ These steps are necessary to initialize a project repo enabling you to contribut
     |image6|
     In next step you can assign reviewer to your changes, you can describe
     what has been changed in PR description and proceed with PR.
-    In case you are not fully ready with all your changes but you 
+    In case you are not fully ready with all your changes but you
     would like to see rendered web result you can create draft pull request.
     |image7|
 
 8. The review phase starts. Now two things happen in parallel: The
     automated and the manual review. Let's first look into the
     automated checks:
-    Under "Checks" tab of pull request you can find the progress of 
+    Under "Checks" tab of pull request you can find the progress of
     the automated review jobs. Zuul is instantly simulating to merge your
-    changes and build the whole project. If build succeeded you can navigate 
+    changes and build the whole project. If build succeeded you can navigate
     to respective "build" link and observe created artifacts.
     |image8|
     For you connvience Zuul is pre-rending html documentation
@@ -62,7 +66,7 @@ These steps are necessary to initialize a project repo enabling you to contribut
 9.  Navigate to the modified content of the rendered documentation to validate
     whether your changes are correct.
     |image10|
-    
+
 10. If, however, Zuul and Sphinx are not able to build the
     project successfully, several red stop signs appear. To
     investigate for the cause, identify the symbol for " checks have
@@ -84,7 +88,7 @@ These steps are necessary to initialize a project repo enabling you to contribut
     the important information might be in another line, though.
 
 12. Once you found the cause of the failed check, return to your local
-    repository, and fix it. 
+    repository, and fix it.
 
 13. In the meantime, the manual review phase has started. TODO Add screenshot
     how to request changes by reviewer.
