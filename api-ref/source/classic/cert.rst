@@ -8,7 +8,7 @@ Creating a Certificate
 Function
 ^^^^^^^^
 
-This API is used to create a certificate for an HTTPS listener.
+This API is used to create a certificate for an HTTPS listener. Typo
 
 URI
 ^^^
