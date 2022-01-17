@@ -7,6 +7,13 @@ The aim of this project is to provide easy and understandable explanation
 how to work with GitOps documentation. How to contribute, review,
 propose changes, suggest fixes and validate previews.
 
+
+
+## Demo
+
+   |demo|
+
+
 ## Initializing a repo
 
 These steps are necessary to initialize a project repo enabling
@@ -21,10 +28,12 @@ you to contribute to the documentation of that project:
 3. Click on "Fork" on the top-right of the page. If you have several
    identities configured, select the one you want to use for
    contributing to the documentation.
+
    |image1|
 
 4. After succesful fork you should see a forked project under
    your private identity.
+
    |image2|
 
 5. Edit the files with an "rst" extension to reflect your additions or
@@ -32,24 +41,31 @@ you to contribute to the documentation of that project:
    in "index.rst". Make sure that all restructured text files are
    linked from this root node, since Sphinx will complain
    otherwise.
+
    |image3|
 
 6. Commit the changes either to the main branch of your forked project or
    in case of potential multiple independent changes you can push it
    to separate branch.
+
    |image4|
 
 7. Once you succesfully pushed all your changes to your forked project
     you are ready to create a pull request to the upstream project
+
     |image5|
+
     During creation of pull request you can quickly review your changes
     which will be included in PR and if there are no conflicts you see
     "Able to merge" green message.
+
     |image6|
+
     In next step you can assign reviewer to your changes, you can describe
     what has been changed in PR description and proceed with PR.
     In case you are not fully ready with all your changes but you
     would like to see rendered web result you can create draft pull request.
+
     |image7|
 
 8. The review phase starts. Now two things happen in parallel: The
@@ -59,12 +75,17 @@ you to contribute to the documentation of that project:
     the automated review jobs. Zuul is instantly simulating to merge your
     changes and build the whole project. If build succeeded you can navigate
     to respective "build" link and observe created artifacts.
+
     |image8|
+
     For you connvience Zuul is pre-rending html documentation
     incorporating your changes under "Docs preview site" link.
+
     |image9|
+
 9.  Navigate to the modified content of the rendered documentation to validate
     whether your changes are correct.
+
     |image10|
 
 10. If, however, Zuul and Sphinx are not able to build the
@@ -99,6 +120,7 @@ you to contribute to the documentation of that project:
     section on the right-hand sidebar. Click on the tiny wheel and
     select the "gate" label.
 
+.. |demo| image:: /media/demo.gif
 .. |image1| image:: /media/image1.png
 .. |image2| image:: /media/image2.png
 .. |image3| image:: /media/image3.png
