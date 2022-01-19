@@ -29,14 +29,14 @@ you to contribute to the documentation of that project:
 2. Open the project on GitHub in your browser, for example
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   https://github.com/opentelekomcloud-docs/sandbox
+https://github.com/opentelekomcloud-docs/sandbox
 
 3. Create a "Fork" of the repo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    
-   Click on "Fork" on the top-right of the page. If you have several
-   identities configured, select the one you want to use for
-   contributing to the documentation.
+Click on "Fork" on the top-right of the page. If you have several
+identities configured, select the one you want to use for
+contributing to the documentation.
 
    |image1|
 
