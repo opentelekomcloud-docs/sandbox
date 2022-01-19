@@ -99,7 +99,7 @@ to respective "build" link and observe created artifacts.
 
 |image8|
 
-For you connvience Zuul is pre-rending html documentation
+For your connvience Zuul is pre-rending html documentation
 incorporating your changes under "Docs preview site" link.
 
 |image9|
@@ -155,6 +155,15 @@ someone has to put the label "gate" to the commit. To do so, open
 the PR, select the "Conversation" tab, and locate the "Labels"
 section on the right-hand sidebar. Click on the tiny wheel and
 select the "gate" label.
+
+13. Useful links
+^^^^^^^^^^^^^^^^
+
+`How to rebase your forked repo  <https://medium.com/@topspinj/how-to-git-rebase-into-a-forked-repo-c9f05e821c8a>`_
+`How to install Github CLI tools  <https://github.com/cli/cli/blob/trunk/docs/install_linux.md>`_
+`How to create fork with Github CLI tools  <https://cli.github.com/manual/gh_repo_fork>`_
+`Online RST editor  <http://rst.ninjs.org/>`_
+`RST tutorial  <https://sphinx-tutorial.readthedocs.io/step-1/>`_
 
 .. |demo| image:: /media/demo.gif
 .. |image1| image:: /media/image1.png
