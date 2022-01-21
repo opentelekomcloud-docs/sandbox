@@ -18,7 +18,7 @@ POST /v1.0/{project_id}/elbaas/certificate
 
 .. table:: **Table 1** Parameter description
 
-   +-------------+-----------+--------+-----------------------------+
+   +------------+-----------+--------+-----------------------------+
    | Parameter   | Mandatory | Type   | Description                 |
    +=============+===========+========+=============================+
    | project_id  | Yes       | String | Specifies the project ID.   |
