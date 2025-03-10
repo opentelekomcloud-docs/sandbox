@@ -8,7 +8,7 @@ Configuring a Health Check
 Function
 ^^^^^^^^
 
-This API is used to configure a health check for backend ECSs.
+This API is used to configure a health check for backend ECS servers.
 
 URI
 ^^^
